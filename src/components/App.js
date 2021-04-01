@@ -18,6 +18,9 @@ class App extends React.Component {
     render() {
         return (
         <div className="ui container" style={{ marginTop: '10px' }}>
+            <a href="/">
+                <h1 style={{ paddingTop: '10px', textAlign: 'center', color: 'black' }} >Image Search Engine</h1>
+            </a>
             <SearchBar onSubmit={this.onSearchSubmit} />
             <ImageList images={this.state.images} />
         </div>
