@@ -8,9 +8,11 @@ A simple project which allows users to search for images.
 3. Rendering a list of images - learnt how to use a map function to render a list.
 4. React Keys - using react keys on images to improve efficiency during rendering.
 5. React Ref - learnt how to access single elements in the DOM and retrieve its data.
-6. Bonus: Grid CSS system - loaded the images in a grid with minimal white space.
+6. Axios - used axios.create() to send the GET request to the unsplash API. 
+7. Bonus: Grid CSS system - loaded the images in a grid without any white space.
 
 ## Technologies used:
 1. React
 2. Unsplash API
-3. Semantic UI - for CSS
+3. Axios
+4. Semantic UI - for CSS
